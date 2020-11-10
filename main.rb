@@ -1,9 +1,6 @@
-require './classes/players.rb'
-require './classes/quiz.rb'
-require './classes/turn.rb'
+require './classes/player.rb'
+require './classes/question.rb'
+require './classes/game.rb'
 
-myturn = Turn.new
-myturn.run_turn
-
-myplayers = Players.new
-puts myplayers.player1
+game = Game.new
+game.game

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../w8/candidates"
+		},
+		{
+			"path": "../../w8/oop_ruby"
+		},
+		{
+			"path": "../../w8/ruby_exercises"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
