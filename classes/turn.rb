@@ -7,4 +7,28 @@
 =end
 
 class Turn
+  def initialize()
+    @num1 = rand(20)
+    @num2 = rand(20)
+    @total = @num1 + @num2
+  end
+
+  def generate_question
+    puts "What is #{@num1} plus #{@num2}?"
+  end
+
+  def evaluate_answer
+    answer = gets.chomp.to_i
+    if answer == @total
+      puts "Correct!"
+    else
+      puts "Incorrect :("
+    end
+  end
+
+  def run_turn
+    generate_question
+    evaluate_answer
+  end
+
 end
